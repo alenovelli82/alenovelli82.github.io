@@ -1,0 +1,90 @@
+/* Add your CSS styles here */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header */
+h1 {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* Brief Intro */
+h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+/* Job Experience */
+.job {
+  margin-bottom: 40px;
+}
+
+.job h3 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.job p {
+  font-size: 14px;
+  font-style: italic;
+  margin-bottom: 5px;
+}
+
+/* Job Description */
+.job ul {
+  margin-left: 20px;
+}
+
+.job li {
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+/* Highlight */
+.job h4 {
+  font-size: 16px;
+  font-weight: bold;
+margin-bottom: 5px;
+}
+
+/* Job duration */
+.job p {
+font-size: 14px;
+font-style: italic;
+margin-bottom: 5px;
+float: right;
+}
+
+/* Clear floats */
+.job:after {
+content: "";
+clear: both;
+display: table;
+}
+
+/* Add some color */
+.job h3 {
+color: #0077C9;
+}
+
+/* Center the title */
+.job h3 {
+text-align: center;
+}
+
+/* Add some spacing */
+.job {
+padding: 20px;
+}
+
+/* Change bullet style */
+.job ul {
+list-style-type: square;
+}
