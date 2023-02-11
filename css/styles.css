@@ -12,6 +12,13 @@ https://coolors.co/f7fff7-343434-2f3061-ffe66d-alc6d7
 /* Global Styles 
 --------------------------------*/
 
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+} 
+
 body {
     color: #343434;
     font-family: 'Ubuntu', sans-serif;
