@@ -75,6 +75,14 @@ header {
     background: #F7FFF7 ;
 }
 
+.project-item {
+  overflow: hidden;
+ } 
+
+.project-item img {
+  float: left;
+ } 
+
 /* Work Experience
 --------------------------------*/
 .work-experience {
